@@ -126,6 +126,7 @@ export function Header(props: IHeaderProps) {
     },
     {
       label: "About",
+      route:"/about"
     },
     {
       label: "Open Account",

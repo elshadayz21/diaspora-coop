@@ -7,6 +7,7 @@ import './styles/app.scss';
 import { MoneyTransfer } from './pages/MoneyTransfer';
 import { GetALoan } from './pages/GetALoan';
 import { LoanCalculator } from './pages/LoanCalculator';
+import About from './pages/about';
 
 interface BodyeRouteProps {
   // TODO: move to types
@@ -59,7 +60,16 @@ const App = () => {
             </BodyRoute>
           }
         />
+         <Route
+          path='/about'
+          element={
+            <BodyRoute>
+              <About />
+            </BodyRoute>
+          }
+        />
       </Routes>
+      
     </div>
   );
 };
