@@ -8,6 +8,7 @@ import { MoneyTransfer } from './pages/MoneyTransfer';
 import { GetALoan } from './pages/GetALoan';
 import { LoanCalculator } from './pages/LoanCalculator';
 import About from "./pages/about"
+import ScrollToTopButton from './components/ScrollToTopButton';
 interface BodyeRouteProps {
   // TODO: move to types
   children: ReactNode;
